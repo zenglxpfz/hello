@@ -1,0 +1,60 @@
+Index: src/com/zyq/pojo/People.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/zyq/pojo/People.java	(date 1565829542000)
++++ src/com/zyq/pojo/People.java	(date 1565829542000)
+@@ -0,0 +1,13 @@
++package com.zyq.pojo;
++
++/**
++ * @author xmr
++ * @date 2019/4/23 16:25
++ * @description
++ */
++public class People {
++    private int age;
++    public static void main(String[] args) {
++
++    }
++}
+Index: web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/WEB-INF/web.xml	(date 1565829542000)
++++ web/WEB-INF/web.xml	(date 1565829542000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
+Index: web/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/index.jsp	(date 1565829542000)
++++ web/index.jsp	(date 1565829542000)
+@@ -0,0 +1,16 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: acer
++  Date: 2019/4/23
++  Time: 16:23
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<html>
++  <head>
++    <title>$Title$</title>
++  </head>
++  <body>
++  $END$
++  </body>
++</html>
